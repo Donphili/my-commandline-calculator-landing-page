@@ -1,0 +1,15 @@
+# Jekyll Configuration
+theme: minima
+title: My GitHub Pages Site
+description: This is my GitHub Pages site.
+baseurl: /My-commandline-calculator
+
+# Site Settings
+url: https://donphili.github.io/My-commandline-calculator/
+repository: https://github.com/Donphili/My-commandline-calculator
+
+author:
+  name: Onyejekwe Philip Emeka
+  email: donphilip65@yahoo.com
+  twitter: https://twitter.com/donphilip855?t=kZ4dIRFKoUr5pAVnZPcvEQ&s=09
+  github: https://github.com/Donphili

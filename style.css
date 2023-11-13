@@ -2,9 +2,19 @@
 body, h1, p {
     margin: 0;
     padding: 0;
-}                                                                                                                                     /* Basic styles */                                                 body {                                                                 font-family: Arial, sans-serif;
-    background-color: #f4f4f4;                                     }                                                                                                                                     .cover-image {                                                         text-align: center;                                                padding: 20px;
 }
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.cover-image {
+    text-align: center;
+    padding: 20px;
+}
+
 .cover-image img {
     max-width: 100%;
 }

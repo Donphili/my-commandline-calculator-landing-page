@@ -1,87 +1,16 @@
-/* Reset some default styles */
-body, h1, p {
+/* Add your styles here */
+body {
     margin: 0;
     padding: 0;
 }
 
-/* Basic styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-}
-
 .cover-image {
-    text-align: center;
-    padding: 20px;
-}
-
-.cover-image img {
-    max-width: 100%;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.button {
-    background-color: #4caf50;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: none;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #45a049;
-}
-
-#features {
-    text-align: center;
-    background-color: #fff;
-    padding: 20px;
-}
-
-.feature {
-    display: inline-block;
-    padding: 20px;
-    text-align: left;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .feature img {
-    max-width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-#about {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-#about a {
-    color: #4caf50;
-    text-decoration: none;
-}
-
-#about a:hover {
-    text-decoration: underline;
+    width: 100%;
+    height: auto;
 }

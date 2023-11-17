@@ -6,7 +6,7 @@ body {
 .cover-image {
     width: 90%;
     height: 90vh;
-    position: relative;
+    position: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

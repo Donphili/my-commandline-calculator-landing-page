@@ -5,7 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CommandLine Calculator</title>
-    <link rel="stylesheet" href="style.css"> <!-- Add this line for your styles -->
+    <link rel="stylesheet" href="style.css"> <!-- Add this line for your general styles -->
+    <style>
+        /* Theme styles for the landing page */
+        body {
+            background-color: #f2f2f2;
+            color: #333;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .cover-image {
+            border: 2px solid #555;
+        }
+
+        /* Calculator interface styles */
+        .calculator {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px;
+            /* Add more styles as needed */
+        }
+    </style>
 </head>
 
 <body>
@@ -59,6 +79,23 @@
         </ul>
         <a href="https://github.com/Donphili/my-commandline-calculator-landing-page/">GitHub Repository</a>
     </div>
+
+    <!-- Calculator Interface -->
+    <div class="calculator">
+        <!-- Your calculator content goes here -->
+        <!-- Example: -->
+        <input type="text" id="calc-display" readonly>
+        <button onclick="clearDisplay()">C</button>
+        <!-- Add more calculator elements as needed -->
+    </div>
+
+    <script>
+        // Add your calculator JavaScript logic here
+        function clearDisplay() {
+            document.getElementById('calc-display').value = '';
+        }
+        // Add more functions as needed
+    </script>
 
 </body>
 
